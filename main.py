@@ -1,7 +1,7 @@
 import os
 import csv
 with open(r'C:\Users\nicho\OneDrive\Desktop\budget_data.csv') as csvfile:
-    datareader = csv.reader(csvfile, delimiter = "-")
+    datareader = csv.reader(csvfile, delimiter = ",")
     Total_Months = 0
     Dates = []
     Profits = []
