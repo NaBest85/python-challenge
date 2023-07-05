@@ -50,7 +50,7 @@ with open(r'C:\Users\nicho\OneDrive\Desktop\budget_data.csv') as csvfile:
 
     line1 = "Financial Analysis"
     line2 = "----------------------------------"
-    line3 = "Total Months: " + " = len(Dates)"
+    line3 = "Total Months: "
     line4 = "Total: $" + str(Total_Pl)
     line5 = "Average Change: $" + str(round(Avg_Change,2))
     line6 = "Greatest Increase in Profits: " + Increase_Date_index + " ($" + str(Greatest_Inc) + ")"
